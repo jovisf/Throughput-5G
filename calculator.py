@@ -32,7 +32,7 @@ for MiMo in camadasMIMO:
     for data in range(len(datacarriedover1slot)):
         for i in resourceBlocks:
             throughput5g = ((i*datacarriedover1slot[data]*downlink3*MiMo)//1024)//1024
-            print(f"Ordem de modulação:{data}, largura de banda:{revertebanda(i)}, Número de camadas Mimo: {MiMo} e razão da divisão dos slots entre DL e UL: 4:1 a vazão foi de {throughput5g} Mbps")
+            print(f"Ordem de modulação:{data}, largura de banda:{revertebanda(i)}, Número de camadas Mimo: {MiMo} e razão da divisão dos slots entre DL e UL: 3:1 a vazão foi de {throughput5g} Mbps")
 
 
 
